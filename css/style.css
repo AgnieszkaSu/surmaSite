@@ -13,7 +13,7 @@ body{
      background-repeat: no-repeat;
   background-position: top center;
     width: 100%;
-  height: 100%;
+  height: 110%;
     
 }
 
@@ -54,7 +54,7 @@ header nav
 }
 header nav ul li a
 {
-    padding-right:60px;
+    padding-right:70px;
     font-weight: bold;
     color: white;
     transition: all 0.5s ease-in;
@@ -62,73 +62,9 @@ header nav ul li a
 
 }
 
-header nav ul li a: hover
-{
-    
-text-decoration:none;
-color:red;
-}
 
-.img1
-{
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0.0.0.3)),url(..//image/slider1.png);
-  height: 10px;
-    width:100px;
-}
-.img2
-{
 
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0.0.0.3)),url(..//image/slider2.png);
-    background-size:cover;
-    }
-.slider,.slider ul,.slider ul li
-{
-    height: 100%;
-    color: hotpink;
-    text-align: center;
-    color:white;
-    
-}
-.slider h2
-{
-    font-weight: bold;
-    margin-top:190px;
-}
-    
-.slider span
-{
-    color:orange;
-    
-}
-.slider a
-{
-    color:yellow;
-    color:yellow;
-    padding: 10px 50px;
-    margin-right: 30px;
 
-}
-.slider a.btn-half
-{
-    background-color: lightpink;
-    color:white;
-}
-
-.slider a.btn-full
-{
-    background-color:lightpink;
-    color:white;
-}
-.slider i
-{
-    font-size: 25px;
-    margin-right:10px; 
-}
-.slider-carousel
-{
-    width:100%;
-    height: :100%;
-}
 .container{
     width: 80%;
     height: 80%;
@@ -174,7 +110,7 @@ margin-right:300px;
      display:flex;
     align-items: center;
     width:100vh;
-   padding-top:20px;
+   padding-top:30px;
 }
 #container5{
      display:flex;
@@ -186,6 +122,7 @@ margin-right:300px;
     display: inline-block;
     font-size: 4.5rem;
     color: rgb(255,255,255,0.7);
+    padding-left: 20px;
 }
 .loading-animation::after{
     content: attr(data-text);
@@ -195,7 +132,10 @@ margin-right:300px;
     overflow: hidden;
     width: 0%;
     animation: loading 10s infinite;
-}
+    
+    padding-left: 20px;
+} 
+
 
 @keyframes loading {
     0%{
@@ -208,12 +148,12 @@ margin-right:300px;
 
 .tekst
 {
-    font-size: 18px;
+    font-size: 20px;
    text-align: center;
 }
 .skills
 {
-   font-size: 15px;
+   font-size: 13px;
     text-align: center;
     
 }
@@ -225,7 +165,7 @@ margin-right:300px;
   color: hotpink;
   font-weight: 300;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 15px;
   position: relative;
 }
 
@@ -310,7 +250,7 @@ margin-right:300px;
   border-radius: 50%;
 }
 .sm a:hover{
-  background: #2c3e50;
+  background: lightpink;
   color: red;
 }
 .card:hover > .front{
@@ -319,14 +259,11 @@ margin-right:300px;
 }
 .card:hover > .back{
   transform: perspective(600px) rotateY(0deg);
-    transform: translate(-1px, -1px);
+/*    transform: translate(-1px, -1px);*/
 }
 
 
-.glyphicon {
- text-align: center;
-   color:navy;
-}
+
 @import url(https://fonts.googleapis.com/css?family=Lato:100);
 *, *:before, *:after{
   box-sizing:border-box;
@@ -360,7 +297,7 @@ margin-right:100%;
   transition: all 0.3s ease-in-out;
 }
 .letter:before{
-  color: lightpink;
+  color: hotpink;
   text-shadow: 
     1px 0px 1px rgba(0,0,0,0);
   z-index: 3;
@@ -394,3 +331,49 @@ margin-right:100%;
     rotateZ(0deg)
     skew(0deg,22deg);
 }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: navy;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  display: block;
+    font-size:15px;
+}
+.dropdown-content1 a {
+  color: navy;
+margin-right:20%:
+  text-decoration: none;
+  display: block;
+    font-size:15px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.square {
+  width:10px;
+  height: 10px;
+  background-color: navy;
+    display: inline-block;
+  border-radius: 50%;
+ 
